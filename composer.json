@@ -2,7 +2,7 @@
     "name": "savio.varsalle/laravel-correios-basico",
     "description": "Pacote para consulta de preços e prazos no site dos correios sem cartão de postagem.",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "SavioVarsalle\\LaravelCorreiosBasico\\": "src/"
@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
+        "symfony/dom-crawler": "6.4"
     },
     "require-dev": {
         "php": ">=8.1",
